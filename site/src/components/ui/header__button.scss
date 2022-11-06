@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.BuyButton{
+    background-color: transparent;
+    border: 1px solid #FFAE2B;
+    width: 147px;
+    height: 52px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAE2B;
+    margin-left: 489px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.BuyButton:hover{
+    background-color: #FFAE2B;
+    color: black;
+
+}
