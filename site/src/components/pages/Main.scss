@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
-
+a, a:hover{
+    text-decoration: none;
+}
 .container{
     width: 1440px;
 }
@@ -42,6 +44,7 @@
         color: #ACA592;
         margin-left: 40px;
         margin-top: 28px;
+        text-decoration: none;
         cursor: pointer;
     }
 

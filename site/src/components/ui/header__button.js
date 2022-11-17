@@ -9,4 +9,4 @@ function BuyButton () {
   }
   
   
-  export default BuyButton;
+  export default BuyButton

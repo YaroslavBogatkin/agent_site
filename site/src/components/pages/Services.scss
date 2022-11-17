@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.services{
+    background-color: #000;
+
+    &__onTheTitle{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ACA592;
+        margin-top: 158px;
+    }
+
+    &__title{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFAE2B;
+        margin-top: 10px;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        
+        &-logo{
+            padding-top: 82px;
+            padding-left: 62px;
+        }
+
+        &-title{
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 40px;
+            color: #FFAE2B;
+            padding-top: 20px;
+            padding-left: 62px;
+        }
+
+        &-subtitle{
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 26px;
+            color: #ACA592;
+            padding-top: 10px;
+            padding-left: 62px;
+        }
+
+        &-descr{
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 26px;
+            color: #ACA592;
+            padding-top: 20px;
+            padding-left: 62px;
+        }
+    }
+}
+
+.content{
+    width: 400px;
+    height: 350px;
+    margin-right: 30px;
+    border: 1px solid #4B4136;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.instapic{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #4B4136;
+    margin-top: 116px;
+    text-align: center;
+
+    &__item:first-child{
+        margin-left: 120px;
+
+    }
+
+    &__item{
+        position: relative;
+        top: -20px;
+    }
+
+    &__content{
+        width: 329px;
+        height: 217px;
+        margin-top: 21px;
+        background-image: url(../elements/images/19.png);
+        background-repeat: no-repeat;
+        background-size:65%;
+        background-position-x: center;
+        background-position-y: center;    
+    }
+
+    &__descr{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFAE2B;
+    }
+
+    &__btn{
+        width: 155px;
+        height: 50px;
+        margin-top: 54px;
+        border: 1px solid #FFAE2B;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFAE2B;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    &__btn:hover{
+        background-color: #FFAE2B;
+        border: none;
+        color: #000;
+    }
+}
+
+.product__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+
+    &-title{
+        max-width: 517px;
+        max-height: 140px;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFAE2B;
+    }
+
+    &-descr{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+        text-align: center;
+        color: #ACA592;
+        margin-top: 20px;
+    }
+
+    &-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-input{
+        width: 420px;
+        height: 50px;
+        margin-top: 82px;
+        background: transparent;
+        border: 1px solid #4B4136;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFAE2B;
+    }
+
+    &-btn{
+        height: 50px;
+        background: #FFAE2B;
+        border: 1px solid #4B4136;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000;
+        cursor: pointer;
+        margin-bottom: 32px;
+
+    }
+
+    &-information{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #ACA592;
+        margin-bottom: 24px;
+    }
+
+    &-logo{
+       margin-right: 8px;
+       cursor: pointer;
+    }
+}
+
+.footer__links{
+    border-top: 1px solid #4B4136;
+    display: flex;
+    margin-top: 43px;
+    width: 1200px;
+
+    &-name{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        color: #FFAE2B;
+        margin-left:120px;
+        padding-top: 26px;
+        padding-bottom: 25px;
+    }
+
+    &-item{
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 30px;
+        color: #FFAE2B;
+        padding-top: 26px ;
+        padding-right: 11px;
+        position: relative;
+        left: 720px;
+    }
+
+    &-item:first-child{
+        padding-left: 912px;
+    }
+}
+
+span{
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFAE2B;
+    cursor: pointer;  
+}
